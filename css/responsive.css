@@ -1,5 +1,5 @@
 :root {
-	--background-color: #ED217C;
+	--background-color: #ed217c;
 }
 
 /* =====================================
@@ -480,7 +480,7 @@ Version:	1.1
 	text-shadow: none;
 }
 .slicknav_nav .slicknav_arrow{
-	color:#EDF2FF;
+	color:#EDF2FF;fun-facts section overlay
 }
 .slicknav_nav li:hover .slicknav_arrow{
 	color:#ED217C;

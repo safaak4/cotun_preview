@@ -1118,15 +1118,15 @@ body{
 	border: 1px solid #fff;
 	color: #fff;
 	background: transparent;
-	color: #fff !important;
+
 }
 .call-action .content .second:before{
 	background:#fff;
 }
 .call-action .content .second:hover{
-	color: var(--background-color);
 	border-color:transparent;
 	background:#fff;
+	color: #ed217c;
 }
 .call-action .content .second i{
 	margin-left:10px;
@@ -1201,6 +1201,12 @@ body{
 .portfolio .owl-nav{
 	display:none;
 }
+
+.center {
+	padding: 20px;
+	text-align: center;
+}
+
 /* Slider Nav */
 .pf-details .image-slider .owl-nav{
 	margin: 0;

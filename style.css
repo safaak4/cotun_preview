@@ -103,6 +103,16 @@ body{
 	width: 100%;
 	text-transform: capitalize;
 }
+.pro-features .button .btn2 {
+	width: 100%;
+	text-align: center;
+	margin-top: 8px;
+	display: inline-block;
+	float: left;
+	font-size: 13px;
+	width: 100%;
+	text-transform: capitalize;
+}
 .pro-features li {
 	color: #333;
 	margin: 0;
@@ -312,6 +322,9 @@ body{
 .get-quote .btn{
 	color:#fff;
 }
+.get-quote .btn2{
+	color:#fff;
+}
 .header .logo {
 	float: left;
 	margin-top: 18px;
@@ -432,6 +445,9 @@ body{
 	text-transform: capitalize;
 }
 .header .single-widget.btn{
+	margin-left:0;
+}
+.header .single-widget.btn2{
 	margin-left:0;
 }
 /* Dropdown Menu */
@@ -634,14 +650,32 @@ body{
 	margin:0;
 	margin-right:10px;
 }
+.slider .single-slider .btn2{
+	color:#fff;
+	background: var(--color);
+	font-weight:500;
+	display:inline-block;
+	margin:0;
+	margin-right:10px;
+}
 .slider .single-slider .btn:last-child{
+	margin:0;
+}
+.slider .single-slider .btn2:last-child{
 	margin:0;
 }
 .slider .single-slider .btn.primary{
 	background:#2C2D3F;
 	color:#fff;
 }
+.slider .single-slider .btn2.primary{
+	background:#2C2D3F;
+	color:#fff;
+}
 .slider .single-slider .btn.primary:before{
+	background: var(--background-color);
+}
+.slider .single-slider .btn2.primary:before{
 	background: var(--background-color);
 }
 .slider .owl-carousel .owl-nav {
@@ -1104,14 +1138,31 @@ body{
 	border:1px solid #fff;
 	color: var(--color);
 }
+.call-action .content .btn2{
+	background:#fff;
+	margin-right:20px;
+	font-weight:500;
+	border:1px solid #fff;
+	color: var(--color);
+}
 .call-action .content .btn:before{
+	background: var(--background-color);
+}
+.call-action .content .btn2:before{
 	background: var(--background-color);
 }
 .call-action .content .btn:hover{
 	background: var(--background-color);
 	color:#fff;
 }
+.call-action .content .btn2:hover{
+	background: var(--background-color);
+	color:#fff;
+}
 .call-action .content .btn:last-child{
+	margin-right:0px;
+}
+.call-action .content .btn2:last-child{
 	margin-right:0px;
 }
 .call-action .content .second {
@@ -1191,7 +1242,35 @@ body{
 	margin-top: -24px;
 	border-radius:4px;
 }
+.portfolio .single-pf .btn2 {
+	color: white;
+	z-index: 3;
+
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	border-radius: 0px;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	height: 48px;
+	width: 150px;
+	text-align: center;
+	line-height: 48px;
+	padding: 0;
+	font-weight: 500;
+	font-size: 14px;
+	margin-left: -75px;
+	margin-top: -24px;
+	border-radius:4px;
+}
 .portfolio .single-pf:hover .btn{
+	opacity:1;
+	visibility:visible;
+}
+.portfolio .single-pf:hover .btn2{
 	opacity:1;
 	visibility:visible;
 }
@@ -4182,3 +4261,42 @@ body{
 /*=========================
 	End Footer CSS
 ===========================*/
+
+
+
+.accordion2 {
+	background-color: #eee;
+	color: #444;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+	transition: 0.4s;
+}
+
+.active2, .accordion2:hover {
+	background-color: #ccc;
+}
+
+.panel2 {
+	padding: 0 18px;
+	background-color: white;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+}
+
+.accordion2:after {
+	content: '\02795'; /* Unicode character for "plus" sign (+) */
+	font-size: 13px;
+	color: #777;
+	float: right;
+	margin-left: 5px;
+}
+
+.active2:after {
+	content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
